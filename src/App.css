@@ -1,5 +1,42 @@
+body {
+    margin: 0;
+}
+
 .App {
 
 }
 
+.learn-title {
+    font-size: 100px;
+    /* margin: 40px; */
+}
 
+.learn-meaning { 
+    font-size: 30px;
+    margin: 40px;
+}
+
+.learn-control { 
+    width: 100%;
+    margin-top: 100px;
+}
+
+.learn-control .btn { 
+    display: inline-block;
+}
+
+.learn-prev-btn {
+    float: left;
+}
+
+.learn-next-btn {
+    float: right;
+}
+
+.learn-area {
+    height: 100vh;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
